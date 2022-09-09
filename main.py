@@ -572,93 +572,125 @@ def move():
     closestEnemy = solve(closeArray, me)
     enemyToAttack = closeArray[closestEnemy]
     print("Closest Enemy: ", closeArray[closestEnemy])
-
+    print("T")
     if enemyToAttack[2] == 'N':
         if myLocationDetailed == 'N':
             if enemyToAttack[1] < myLocationDetailed[1] - 3:
+                print("T")
                 return 'T'
             else:
+                print("F")
                 return 'F'
         elif myLocationDetailed == 'S':
             if enemyToAttack[1] < myLocationDetailed[1] - 3:
+                print("T")
                 return 'T'
             else:
+                print("F")
                 return 'F'
         elif myLocationDetailed == 'E':
             if enemyToAttack[0] < myLocationDetailed[0] - 3:
+                print("T")
                 return 'T'
             else:
+                print("L")
                 return 'L'
         elif myLocationDetailed == 'W':
             if enemyToAttack[0] < myLocationDetailed[0] - 3:
+                print("T")
                 return 'T'
             else:
+                print("R")
                 return 'R'
 
     elif enemyToAttack[2] == 'S':
         if myLocationDetailed == 'N':
             if enemyToAttack[1] < myLocationDetailed[1] - 3:
+                print("T")
                 return 'T'
             else:
+                print("F")
                 return 'F'
         elif myLocationDetailed == 'S':
             if enemyToAttack[1] < myLocationDetailed[1] - 3:
+                print("T")
                 return 'T'
             else:
+                print("L")
                 return 'L'
         elif myLocationDetailed == 'E':
             if enemyToAttack[0] < myLocationDetailed[0] - 3:
+                print("T")
                 return 'T'
             else:
+                print("L")
                 return 'L'
         elif myLocationDetailed == 'W':
             if enemyToAttack[0] < myLocationDetailed[0] - 3:
+                print("T")
                 return 'T'
             else:
+                print("R")
                 return 'R'
 
     elif enemyToAttack[2] == 'E':
         if myLocationDetailed == 'N':
             if enemyToAttack[1] < myLocationDetailed[1] - 3:
+                print("T")
                 return 'T'
             else:
+                print("L")
                 return 'L'
         elif myLocationDetailed == 'S':
             if enemyToAttack[1] < myLocationDetailed[1] - 3:
+                print("T")
                 return 'T'
             else:
+                print("R")
                 return 'R'
         elif myLocationDetailed == 'E':
             if enemyToAttack[0] < myLocationDetailed[0] - 3:
+                print("T")
                 return 'T'
             else:
+                print("L")
                 return 'L'
         elif myLocationDetailed == 'W':
             if enemyToAttack[0] < myLocationDetailed[0] - 3:
+                print("T")
                 return 'T'
             else:
+                print("L")
                 return 'L'
 
     elif enemyToAttack[2] == 'W':
         if myLocationDetailed == 'N':
             if enemyToAttack[1] < myLocationDetailed[1] - 3:
+                print("T")
                 return 'T'
             else:
+                print("L")
                 return 'L'
         elif myLocationDetailed == 'S':
             if enemyToAttack[1] < myLocationDetailed[1] - 3:
+                print("T")
                 return 'T'
             else:
+                print("R")
                 return 'R'
         elif myLocationDetailed == 'E':
             if enemyToAttack[0] < myLocationDetailed[0] - 3:
+                print("T")
                 return 'T'
             else:
+                print("L")
                 return 'L'
         elif myLocationDetailed == 'W':
             if enemyToAttack[0] < myLocationDetailed[0] - 3:
+                print("T")
                 return 'T'
             else:
+                print("F")
                 return 'F'
 
     # xarray = []
@@ -692,7 +724,7 @@ def move():
     #                 print(minY)
     #                 print(minX)
 
-   
+
 
     # return moves[random.randrange(len(moves))]
 
